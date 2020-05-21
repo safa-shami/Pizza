@@ -1,0 +1,13 @@
+h1 {
+	color:red;
+}
+
+body {
+	background: url(https://image.freepik.com/free-vector/background-template-design-with-happy-chef-smiling_1308-43129.jpg);
+  position: relative;
+  text-align: center;
+  background-attachment: fixed;
+  background-size: cover;
+  text-decoration-color: pink;
+}
+

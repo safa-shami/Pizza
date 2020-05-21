@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pizza</title>
+	<link rel="stylesheet" type="text/css" href="style.css">	
+</head>
+<body>
+		<h1 class="header1">Spoon Lady Pizza</h1>
+		<h3 id= "line page">You will be fully satisfied with every bite</h3>	
+	<div id="pizza-content">
+		<h3 id="opt">Pizza Options</h3>
+	</div>
+	<div class="pizzaOption" id="menue">
+            <label for="pizza">Size:</label>            
+    <select id="pizaa-size">
+  <option name ="size" value="Small">Small</option>
+  <option  name ="size" value="Medium">Medium</option>
+  <option name ="size" value="Large">Large</option>
+</select>
+<br>
+<br>
+<label for="type">Type:</label>
+<select id="pizza-type">
+	<option name= "type" value="Margherita">Margherita</option>
+	<option name= "type" value="Four-seasons">Four seasons</option>
+	
+</select>
+<br>
+<br>
+<label for="sauce">Sauce:</label>
+<select id="Pizza-sauce">
+<option value="tomato sauce">Tomato</option>
+<option value="alfredo sauce">Alfredo</option>
+</select>
+<br>
+<br>
+<label for="meat">Meat:</label>
+<select id= "pizza-meat">
+	<option value="meat">Meat</option>
+	<option value="none">None</option>	
+</select>
+</div>
+<br>
+<br>
+<button id= "submit">Order</button>
+<br>
+<h1 class="page-header">Cart</h1>
+<h2>Price: $ <span id="final-cost"></span></h2>
+<button type="btn" class="checkout-btn" id="checkout-btn">Checkout</button>
+<!--cart-->
+
+
+
+<script src="script.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</body>
+</html>
